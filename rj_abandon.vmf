@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8163"
-	"mapversion" "451"
+	"mapversion" "455"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -122,7 +122,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "451"
+	"mapversion" "455"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites_2fort"
 	"detailvbsp" "detail_2fort.vbsp"
@@ -94945,11 +94945,11 @@ entity
 {
 	"id" "37277"
 	"classname" "light_environment"
-	"_ambient" "215 190 228 20"
-	"_ambientHDR" "-1 -1 -1 1"
+	"_ambient" "215 190 228 800"
+	"_ambientHDR" "215 190 228 800"
 	"_AmbientScaleHDR" "1"
 	"_light" "255 227 145 1000"
-	"_lightHDR" "-1 -1 -1 1"
+	"_lightHDR" "255 227 145 1000"
 	"_lightscaleHDR" "1"
 	"angles" "0 285 0"
 	"pitch" "-30"
