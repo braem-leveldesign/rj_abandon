@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8163"
-	"mapversion" "441"
+	"mapversion" "448"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -104,6 +104,12 @@ visgroups
 		"visgroupid" "21"
 		"color" "104 153 94"
 	}
+	visgroup
+	{
+		"name" "teleglow"
+		"visgroupid" "35"
+		"color" "235 104 89"
+	}
 }
 viewsettings
 {
@@ -116,7 +122,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "441"
+	"mapversion" "448"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites_2fort"
 	"detailvbsp" "detail_2fort.vbsp"
@@ -28388,6 +28394,7 @@ entity
 	{
 		"color" "220 30 220"
 		"visgroupid" "33"
+		"visgroupid" "35"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[500 -7768]"
@@ -32279,10 +32286,10 @@ entity
 {
 	"id" "4692"
 	"classname" "func_illusionary"
-	"disablereceiveshadows" "0"
-	"disableshadows" "0"
+	"disablereceiveshadows" "1"
+	"disableshadows" "1"
 	"origin" "383.4 384 -1776"
-	"renderamt" "80"
+	"renderamt" "5"
 	"rendercolor" "255 255 255"
 	"renderfx" "14"
 	"rendermode" "3"
@@ -32293,7 +32300,7 @@ entity
 		{
 			"id" "4905"
 			"plane" "(-417.193 -224 -1664) (-417.193 992 -1664) (1184 992 -1664)"
-			"material" "TEST/COLOR_GREEN"
+			"material" "TEST/COLOR_GREEN_GLOW"
 			"uaxis" "[1 0 0 0] 0.5"
 			"vaxis" "[0 -1 0 0] 0.5"
 			"rotation" "0"
@@ -32304,7 +32311,7 @@ entity
 		{
 			"id" "4904"
 			"plane" "(-417.193 992 -1888) (-417.193 -224 -1888) (1184 -224 -1888)"
-			"material" "TEST/COLOR_GREEN"
+			"material" "TEST/COLOR_GREEN_GLOW"
 			"uaxis" "[1 0 0 0] 0.5"
 			"vaxis" "[0 -1 0 0] 0.5"
 			"rotation" "0"
@@ -32315,7 +32322,7 @@ entity
 		{
 			"id" "4903"
 			"plane" "(-417.193 -224 -1888) (-417.193 992 -1888) (-417.193 992 -1664)"
-			"material" "TEST/COLOR_GREEN"
+			"material" "TEST/COLOR_GREEN_GLOW"
 			"uaxis" "[0 1 0 0] 0.5"
 			"vaxis" "[0 0 -1 0] 0.5"
 			"rotation" "0"
@@ -32326,7 +32333,7 @@ entity
 		{
 			"id" "4902"
 			"plane" "(1184 992 -1888) (1184 -224 -1888) (1184 -224 -1664)"
-			"material" "TEST/COLOR_GREEN"
+			"material" "TEST/COLOR_GREEN_GLOW"
 			"uaxis" "[0 1 0 0] 0.5"
 			"vaxis" "[0 0 -1 0] 0.5"
 			"rotation" "0"
@@ -32337,7 +32344,7 @@ entity
 		{
 			"id" "4901"
 			"plane" "(1184 -224 -1888) (-417.193 -224 -1888) (-417.193 -224 -1664)"
-			"material" "TEST/COLOR_GREEN"
+			"material" "TEST/COLOR_GREEN_GLOW"
 			"uaxis" "[1 0 0 0] 0.5"
 			"vaxis" "[0 0 -1 0] 0.5"
 			"rotation" "0"
@@ -32348,7 +32355,7 @@ entity
 		{
 			"id" "4900"
 			"plane" "(-417.193 992 -1888) (1184 992 -1888) (1184 992 -1664)"
-			"material" "TEST/COLOR_GREEN"
+			"material" "TEST/COLOR_GREEN_GLOW"
 			"uaxis" "[1 0 0 0] 0.5"
 			"vaxis" "[0 0 -1 0] 0.5"
 			"rotation" "0"
@@ -32366,6 +32373,7 @@ entity
 	{
 		"color" "220 30 220"
 		"visgroupid" "23"
+		"visgroupid" "35"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[500 -14768]"
@@ -32692,10 +32700,10 @@ entity
 {
 	"id" "4876"
 	"classname" "func_illusionary"
-	"disablereceiveshadows" "0"
-	"disableshadows" "0"
+	"disablereceiveshadows" "1"
+	"disableshadows" "1"
 	"origin" "-1184 96 272"
-	"renderamt" "80"
+	"renderamt" "5"
 	"rendercolor" "255 255 255"
 	"renderfx" "14"
 	"rendermode" "3"
@@ -32706,7 +32714,7 @@ entity
 		{
 			"id" "5073"
 			"plane" "(-1760 -288 320) (-1760 480 320) (-608 480 320)"
-			"material" "TEST/COLOR_GREEN"
+			"material" "TEST/COLOR_GREEN_GLOW"
 			"uaxis" "[1 0 0 0] 0.5"
 			"vaxis" "[0 -1 0 0] 0.5"
 			"rotation" "0"
@@ -32717,7 +32725,7 @@ entity
 		{
 			"id" "5072"
 			"plane" "(-1760 480 224) (-1760 -288 224) (-608 -288 224)"
-			"material" "TEST/COLOR_GREEN"
+			"material" "TEST/COLOR_GREEN_GLOW"
 			"uaxis" "[1 0 0 0] 0.5"
 			"vaxis" "[0 -1 0 0] 0.5"
 			"rotation" "0"
@@ -32728,7 +32736,7 @@ entity
 		{
 			"id" "5071"
 			"plane" "(-1760 -288 224) (-1760 480 224) (-1760 480 320)"
-			"material" "TEST/COLOR_GREEN"
+			"material" "TEST/COLOR_GREEN_GLOW"
 			"uaxis" "[0 1 0 0] 0.5"
 			"vaxis" "[0 0 -1 0] 0.5"
 			"rotation" "0"
@@ -32739,7 +32747,7 @@ entity
 		{
 			"id" "5070"
 			"plane" "(-608 480 224) (-608 -288 224) (-608 -288 320)"
-			"material" "TEST/COLOR_GREEN"
+			"material" "TEST/COLOR_GREEN_GLOW"
 			"uaxis" "[0 1 0 0] 0.5"
 			"vaxis" "[0 0 -1 0] 0.5"
 			"rotation" "0"
@@ -32750,7 +32758,7 @@ entity
 		{
 			"id" "5069"
 			"plane" "(-608 -288 224) (-1760 -288 224) (-1760 -288 320)"
-			"material" "TEST/COLOR_GREEN"
+			"material" "TEST/COLOR_GREEN_GLOW"
 			"uaxis" "[1 0 0 0] 0.5"
 			"vaxis" "[0 0 -1 0] 0.5"
 			"rotation" "0"
@@ -32761,7 +32769,7 @@ entity
 		{
 			"id" "5068"
 			"plane" "(-1760 480 224) (-608 480 224) (-608 480 320)"
-			"material" "TEST/COLOR_GREEN"
+			"material" "TEST/COLOR_GREEN_GLOW"
 			"uaxis" "[1 0 0 0] 0.5"
 			"vaxis" "[0 0 -1 0] 0.5"
 			"rotation" "0"
@@ -32779,6 +32787,7 @@ entity
 	{
 		"color" "220 30 220"
 		"visgroupid" "30"
+		"visgroupid" "35"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[500 -14768]"
@@ -32788,10 +32797,10 @@ entity
 {
 	"id" "4909"
 	"classname" "func_illusionary"
-	"disablereceiveshadows" "0"
-	"disableshadows" "0"
-	"origin" "-3072 192 560"
-	"renderamt" "80"
+	"disablereceiveshadows" "1"
+	"disableshadows" "1"
+	"origin" "-3152 240 560"
+	"renderamt" "5"
 	"rendercolor" "255 255 255"
 	"renderfx" "14"
 	"rendermode" "3"
@@ -32802,7 +32811,7 @@ entity
 		{
 			"id" "5085"
 			"plane" "(-4192 -96 608) (-4192 480 608) (-1952 480 608)"
-			"material" "TEST/COLOR_GREEN"
+			"material" "TEST/COLOR_GREEN_GLOW"
 			"uaxis" "[1 0 0 0] 0.5"
 			"vaxis" "[0 -1 0 0] 0.5"
 			"rotation" "0"
@@ -32813,7 +32822,7 @@ entity
 		{
 			"id" "5084"
 			"plane" "(-4192 480 512) (-4192 -96 512) (-1952 -96 512)"
-			"material" "TEST/COLOR_GREEN"
+			"material" "TEST/COLOR_GREEN_GLOW"
 			"uaxis" "[1 0 0 0] 0.5"
 			"vaxis" "[0 -1 0 0] 0.5"
 			"rotation" "0"
@@ -32824,7 +32833,7 @@ entity
 		{
 			"id" "5083"
 			"plane" "(-4192 -96 512) (-4192 480 512) (-4192 480 608)"
-			"material" "TEST/COLOR_GREEN"
+			"material" "TEST/COLOR_GREEN_GLOW"
 			"uaxis" "[0 1 0 0] 0.5"
 			"vaxis" "[0 0 -1 0] 0.5"
 			"rotation" "0"
@@ -32835,7 +32844,7 @@ entity
 		{
 			"id" "5082"
 			"plane" "(-1952 480 512) (-1952 -96 512) (-1952 -96 608)"
-			"material" "TEST/COLOR_GREEN"
+			"material" "TEST/COLOR_GREEN_GLOW"
 			"uaxis" "[0 1 0 0] 0.5"
 			"vaxis" "[0 0 -1 0] 0.5"
 			"rotation" "0"
@@ -32846,7 +32855,7 @@ entity
 		{
 			"id" "5081"
 			"plane" "(-1952 -96 512) (-4192 -96 512) (-4192 -96 608)"
-			"material" "TEST/COLOR_GREEN"
+			"material" "TEST/COLOR_GREEN_GLOW"
 			"uaxis" "[1 0 0 0] 0.5"
 			"vaxis" "[0 0 -1 0] 0.5"
 			"rotation" "0"
@@ -32857,7 +32866,7 @@ entity
 		{
 			"id" "5080"
 			"plane" "(-4192 480 512) (-1952 480 512) (-1952 480 608)"
-			"material" "TEST/COLOR_GREEN"
+			"material" "TEST/COLOR_GREEN_GLOW"
 			"uaxis" "[1 0 0 0] 0.5"
 			"vaxis" "[0 0 -1 0] 0.5"
 			"rotation" "0"
@@ -32874,6 +32883,7 @@ entity
 	editor
 	{
 		"color" "220 30 220"
+		"visgroupid" "35"
 		"visgroupid" "31"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
@@ -32884,10 +32894,10 @@ entity
 {
 	"id" "4939"
 	"classname" "func_illusionary"
-	"disablereceiveshadows" "0"
-	"disableshadows" "0"
+	"disablereceiveshadows" "1"
+	"disableshadows" "1"
 	"origin" "-1504 96 -1008"
-	"renderamt" "80"
+	"renderamt" "5"
 	"rendercolor" "255 255 255"
 	"renderfx" "14"
 	"rendermode" "3"
@@ -32898,7 +32908,7 @@ entity
 		{
 			"id" "5097"
 			"plane" "(-2400 -224 -960) (-2400 416 -960) (-608 416 -960)"
-			"material" "TEST/COLOR_GREEN"
+			"material" "TEST/COLOR_GREEN_GLOW"
 			"uaxis" "[1 0 0 0] 0.5"
 			"vaxis" "[0 -1 0 0] 0.5"
 			"rotation" "0"
@@ -32909,7 +32919,7 @@ entity
 		{
 			"id" "5096"
 			"plane" "(-2400 416 -1056) (-2400 -224 -1056) (-608 -224 -1056)"
-			"material" "TEST/COLOR_GREEN"
+			"material" "TEST/COLOR_GREEN_GLOW"
 			"uaxis" "[1 0 0 0] 0.5"
 			"vaxis" "[0 -1 0 0] 0.5"
 			"rotation" "0"
@@ -32920,7 +32930,7 @@ entity
 		{
 			"id" "5095"
 			"plane" "(-2400 -224 -1056) (-2400 416 -1056) (-2400 416 -960)"
-			"material" "TEST/COLOR_GREEN"
+			"material" "TEST/COLOR_GREEN_GLOW"
 			"uaxis" "[0 1 0 0] 0.5"
 			"vaxis" "[0 0 -1 0] 0.5"
 			"rotation" "0"
@@ -32931,7 +32941,7 @@ entity
 		{
 			"id" "5094"
 			"plane" "(-608 416 -1056) (-608 -224 -1056) (-608 -224 -960)"
-			"material" "TEST/COLOR_GREEN"
+			"material" "TEST/COLOR_GREEN_GLOW"
 			"uaxis" "[0 1 0 0] 0.5"
 			"vaxis" "[0 0 -1 0] 0.5"
 			"rotation" "0"
@@ -32942,7 +32952,7 @@ entity
 		{
 			"id" "5093"
 			"plane" "(-608 -224 -1056) (-2400 -224 -1056) (-2400 -224 -960)"
-			"material" "TEST/COLOR_GREEN"
+			"material" "TEST/COLOR_GREEN_GLOW"
 			"uaxis" "[1 0 0 0] 0.5"
 			"vaxis" "[0 0 -1 0] 0.5"
 			"rotation" "0"
@@ -32953,7 +32963,7 @@ entity
 		{
 			"id" "5092"
 			"plane" "(-2400 416 -1056) (-608 416 -1056) (-608 416 -960)"
-			"material" "TEST/COLOR_GREEN"
+			"material" "TEST/COLOR_GREEN_GLOW"
 			"uaxis" "[1 0 0 0] 0.5"
 			"vaxis" "[0 0 -1 0] 0.5"
 			"rotation" "0"
@@ -32971,6 +32981,7 @@ entity
 	{
 		"color" "220 30 220"
 		"visgroupid" "32"
+		"visgroupid" "35"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[500 -14768]"
@@ -32980,10 +32991,10 @@ entity
 {
 	"id" "4969"
 	"classname" "func_illusionary"
-	"disablereceiveshadows" "0"
-	"disableshadows" "0"
+	"disablereceiveshadows" "1"
+	"disableshadows" "1"
 	"origin" "-3424 96 -1664"
-	"renderamt" "80"
+	"renderamt" "5"
 	"rendercolor" "255 255 255"
 	"renderfx" "14"
 	"rendermode" "3"
@@ -32994,7 +33005,7 @@ entity
 		{
 			"id" "5109"
 			"plane" "(-4256 -256 -1600) (-4256 448 -1600) (-2592 448 -1600)"
-			"material" "TEST/COLOR_GREEN"
+			"material" "TEST/COLOR_GREEN_GLOW"
 			"uaxis" "[1 0 0 0] 0.5"
 			"vaxis" "[0 -1 0 0] 0.5"
 			"rotation" "0"
@@ -33005,7 +33016,7 @@ entity
 		{
 			"id" "5108"
 			"plane" "(-4256 448 -1728) (-4256 -256 -1728) (-2592 -256 -1728)"
-			"material" "TEST/COLOR_GREEN"
+			"material" "TEST/COLOR_GREEN_GLOW"
 			"uaxis" "[1 0 0 0] 0.5"
 			"vaxis" "[0 -1 0 0] 0.5"
 			"rotation" "0"
@@ -33016,7 +33027,7 @@ entity
 		{
 			"id" "5107"
 			"plane" "(-4256 -256 -1728) (-4256 448 -1728) (-4256 448 -1600)"
-			"material" "TEST/COLOR_GREEN"
+			"material" "TEST/COLOR_GREEN_GLOW"
 			"uaxis" "[0 1 0 0] 0.5"
 			"vaxis" "[0 0 -1 0] 0.5"
 			"rotation" "0"
@@ -33027,7 +33038,7 @@ entity
 		{
 			"id" "5106"
 			"plane" "(-2592 448 -1728) (-2592 -256 -1728) (-2592 -256 -1600)"
-			"material" "TEST/COLOR_GREEN"
+			"material" "TEST/COLOR_GREEN_GLOW"
 			"uaxis" "[0 1 0 0] 0.5"
 			"vaxis" "[0 0 -1 0] 0.5"
 			"rotation" "0"
@@ -33038,7 +33049,7 @@ entity
 		{
 			"id" "5105"
 			"plane" "(-2592 -256 -1728) (-4256 -256 -1728) (-4256 -256 -1600)"
-			"material" "TEST/COLOR_GREEN"
+			"material" "TEST/COLOR_GREEN_GLOW"
 			"uaxis" "[1 0 0 0] 0.5"
 			"vaxis" "[0 0 -1 0] 0.5"
 			"rotation" "0"
@@ -33049,7 +33060,7 @@ entity
 		{
 			"id" "5104"
 			"plane" "(-4256 448 -1728) (-2592 448 -1728) (-2592 448 -1600)"
-			"material" "TEST/COLOR_GREEN"
+			"material" "TEST/COLOR_GREEN_GLOW"
 			"uaxis" "[1 0 0 0] 0.5"
 			"vaxis" "[0 0 -1 0] 0.5"
 			"rotation" "0"
@@ -33067,6 +33078,7 @@ entity
 	{
 		"color" "220 30 220"
 		"visgroupid" "33"
+		"visgroupid" "35"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[500 -14768]"
@@ -33076,10 +33088,10 @@ entity
 {
 	"id" "5001"
 	"classname" "func_illusionary"
-	"disablereceiveshadows" "0"
-	"disableshadows" "0"
+	"disablereceiveshadows" "1"
+	"disableshadows" "1"
 	"origin" "-5296 128 -1616"
-	"renderamt" "80"
+	"renderamt" "5"
 	"rendercolor" "255 255 255"
 	"renderfx" "14"
 	"rendermode" "3"
@@ -33090,7 +33102,7 @@ entity
 		{
 			"id" "5121"
 			"plane" "(-5088 -192 -1504) (-5504 -192 -1504) (-5504 448 -1504)"
-			"material" "TEST/COLOR_GREEN"
+			"material" "TEST/COLOR_GREEN_GLOW"
 			"uaxis" "[0 1 0 -64] 0.5"
 			"vaxis" "[1 0 0 0] 0.5"
 			"rotation" "0"
@@ -33101,7 +33113,7 @@ entity
 		{
 			"id" "5120"
 			"plane" "(-5504 -192 -1728) (-5088 -192 -1728) (-5088 448 -1728)"
-			"material" "TEST/COLOR_GREEN"
+			"material" "TEST/COLOR_GREEN_GLOW"
 			"uaxis" "[0 1 0 -64] 0.5"
 			"vaxis" "[1 0 0 0] 0.5"
 			"rotation" "0"
@@ -33123,7 +33135,7 @@ entity
 		{
 			"id" "5118"
 			"plane" "(-5504 448 -1728) (-5088 448 -1728) (-5088 448 -1504)"
-			"material" "TEST/COLOR_GREEN"
+			"material" "TEST/COLOR_GREEN_GLOW"
 			"uaxis" "[-1 0 0 0] 0.5"
 			"vaxis" "[0 0 -1 0] 0.5"
 			"rotation" "0"
@@ -33134,7 +33146,7 @@ entity
 		{
 			"id" "5117"
 			"plane" "(-5088 448 -1728) (-5088 -192 -1728) (-5088 -192 -1504)"
-			"material" "TEST/COLOR_GREEN"
+			"material" "TEST/COLOR_GREEN_GLOW"
 			"uaxis" "[0 1 0 -64] 0.5"
 			"vaxis" "[0 0 -1 0] 0.5"
 			"rotation" "0"
@@ -33145,7 +33157,7 @@ entity
 		{
 			"id" "5116"
 			"plane" "(-5504 -192 -1728) (-5504 448 -1728) (-5504 448 -1504)"
-			"material" "TEST/COLOR_GREEN"
+			"material" "TEST/COLOR_GREEN_GLOW"
 			"uaxis" "[0 1 0 -64] 0.5"
 			"vaxis" "[0 0 -1 0] 0.5"
 			"rotation" "0"
@@ -33163,6 +33175,7 @@ entity
 	{
 		"color" "220 30 220"
 		"visgroupid" "27"
+		"visgroupid" "35"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[500 -14768]"
@@ -33172,10 +33185,10 @@ entity
 {
 	"id" "5016"
 	"classname" "func_illusionary"
-	"disablereceiveshadows" "0"
-	"disableshadows" "0"
+	"disablereceiveshadows" "1"
+	"disableshadows" "1"
 	"origin" "-5296 -688 -1328"
-	"renderamt" "80"
+	"renderamt" "5"
 	"rendercolor" "255 255 255"
 	"renderfx" "14"
 	"rendermode" "3"
@@ -33186,7 +33199,7 @@ entity
 		{
 			"id" "5188"
 			"plane" "(-5504 -1184 -1728) (-5088 -1184 -1728) (-5088 -192 -1728)"
-			"material" "TEST/COLOR_GREEN"
+			"material" "TEST/COLOR_GREEN_GLOW"
 			"uaxis" "[0 1 0 -64] 0.5"
 			"vaxis" "[1 0 0 0] 0.5"
 			"rotation" "0"
@@ -33219,7 +33232,7 @@ entity
 		{
 			"id" "5185"
 			"plane" "(-5088 -192 -1504) (-5088 -192 -1728) (-5088 -1184 -1728)"
-			"material" "TEST/COLOR_GREEN"
+			"material" "TEST/COLOR_GREEN_GLOW"
 			"uaxis" "[0 1 0 -64] 0.5"
 			"vaxis" "[0 0 -1 0] 0.5"
 			"rotation" "0"
@@ -33230,7 +33243,7 @@ entity
 		{
 			"id" "5184"
 			"plane" "(-5504 -1184 -928) (-5504 -1184 -1728) (-5504 -192 -1728)"
-			"material" "TEST/COLOR_GREEN"
+			"material" "TEST/COLOR_GREEN_GLOW"
 			"uaxis" "[0 1 0 -64] 0.5"
 			"vaxis" "[0 0 -1 0] 0.5"
 			"rotation" "0"
@@ -33241,7 +33254,7 @@ entity
 		{
 			"id" "5183"
 			"plane" "(-5088 -1184 -928) (-5504 -1184 -928) (-5504 -192 -1504)"
-			"material" "TEST/COLOR_GREEN"
+			"material" "TEST/COLOR_GREEN_GLOW"
 			"uaxis" "[0 1 0 -64] 0.5"
 			"vaxis" "[1 0 0 0] 0.5"
 			"rotation" "0"
@@ -33259,6 +33272,7 @@ entity
 	{
 		"color" "220 30 220"
 		"visgroupid" "27"
+		"visgroupid" "35"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[500 -14768]"
@@ -33268,10 +33282,10 @@ entity
 {
 	"id" "5137"
 	"classname" "func_illusionary"
-	"disablereceiveshadows" "0"
-	"disableshadows" "0"
+	"disablereceiveshadows" "1"
+	"disableshadows" "1"
 	"origin" "-5296 -2400 -1056"
-	"renderamt" "80"
+	"renderamt" "5"
 	"rendercolor" "255 255 255"
 	"renderfx" "14"
 	"rendermode" "3"
@@ -33282,7 +33296,7 @@ entity
 		{
 			"id" "5176"
 			"plane" "(-5056 -2688 -928) (-5536 -2688 -928) (-5536 -2112 -928)"
-			"material" "TEST/COLOR_GREEN"
+			"material" "TEST/COLOR_GREEN_GLOW"
 			"uaxis" "[0 1 0 -64] 0.5"
 			"vaxis" "[1 0 0 0] 0.5"
 			"rotation" "0"
@@ -33293,7 +33307,7 @@ entity
 		{
 			"id" "5175"
 			"plane" "(-5536 -2688 -1184) (-5056 -2688 -1184) (-5056 -2112 -1184)"
-			"material" "TEST/COLOR_GREEN"
+			"material" "TEST/COLOR_GREEN_GLOW"
 			"uaxis" "[0 1 0 -64] 0.5"
 			"vaxis" "[1 0 0 0] 0.5"
 			"rotation" "0"
@@ -33304,7 +33318,7 @@ entity
 		{
 			"id" "5174"
 			"plane" "(-5056 -2688 -1184) (-5536 -2688 -1184) (-5536 -2688 -928)"
-			"material" "TEST/COLOR_GREEN"
+			"material" "TEST/COLOR_GREEN_GLOW"
 			"uaxis" "[-1 0 0 0] 0.5"
 			"vaxis" "[0 0 -1 0] 0.5"
 			"rotation" "0"
@@ -33326,7 +33340,7 @@ entity
 		{
 			"id" "5172"
 			"plane" "(-5056 -2112 -1184) (-5056 -2688 -1184) (-5056 -2688 -928)"
-			"material" "TEST/COLOR_GREEN"
+			"material" "TEST/COLOR_GREEN_GLOW"
 			"uaxis" "[0 1 0 -64] 0.5"
 			"vaxis" "[0 0 -1 0] 0.5"
 			"rotation" "0"
@@ -33337,7 +33351,7 @@ entity
 		{
 			"id" "5171"
 			"plane" "(-5536 -2688 -1184) (-5536 -2112 -1184) (-5536 -2112 -928)"
-			"material" "TEST/COLOR_GREEN"
+			"material" "TEST/COLOR_GREEN_GLOW"
 			"uaxis" "[0 1 0 -64] 0.5"
 			"vaxis" "[0 0 -1 0] 0.5"
 			"rotation" "0"
@@ -33355,6 +33369,7 @@ entity
 	{
 		"color" "220 30 220"
 		"visgroupid" "27"
+		"visgroupid" "35"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[500 -14768]"
@@ -33364,10 +33379,10 @@ entity
 {
 	"id" "5116"
 	"classname" "func_illusionary"
-	"disablereceiveshadows" "0"
-	"disableshadows" "0"
+	"disablereceiveshadows" "1"
+	"disableshadows" "1"
 	"origin" "-5296 -1648 -1056"
-	"renderamt" "80"
+	"renderamt" "5"
 	"rendercolor" "255 255 255"
 	"renderfx" "14"
 	"rendermode" "3"
@@ -33378,7 +33393,7 @@ entity
 		{
 			"id" "5182"
 			"plane" "(-4512 -2112 -928) (-6080 -2112 -928) (-6080 -1184 -928)"
-			"material" "TEST/COLOR_GREEN"
+			"material" "TEST/COLOR_GREEN_GLOW"
 			"uaxis" "[0 1 0 -64] 0.5"
 			"vaxis" "[1 0 0 0] 0.5"
 			"rotation" "0"
@@ -33389,7 +33404,7 @@ entity
 		{
 			"id" "5181"
 			"plane" "(-6080 -2112 -1184) (-4512 -2112 -1184) (-4512 -1184 -1184)"
-			"material" "TEST/COLOR_GREEN"
+			"material" "TEST/COLOR_GREEN_GLOW"
 			"uaxis" "[0 1 0 -64] 0.5"
 			"vaxis" "[1 0 0 0] 0.5"
 			"rotation" "0"
@@ -33422,7 +33437,7 @@ entity
 		{
 			"id" "5178"
 			"plane" "(-4512 -1184 -1184) (-4512 -2112 -1184) (-4512 -2112 -928)"
-			"material" "TEST/COLOR_GREEN"
+			"material" "TEST/COLOR_GREEN_GLOW"
 			"uaxis" "[0 1 0 -64] 0.5"
 			"vaxis" "[0 0 -1 0] 0.5"
 			"rotation" "0"
@@ -33433,7 +33448,7 @@ entity
 		{
 			"id" "5177"
 			"plane" "(-6080 -2112 -1184) (-6080 -1184 -1184) (-6080 -1184 -928)"
-			"material" "TEST/COLOR_GREEN"
+			"material" "TEST/COLOR_GREEN_GLOW"
 			"uaxis" "[0 1 0 -64] 0.5"
 			"vaxis" "[0 0 -1 0] 0.5"
 			"rotation" "0"
@@ -33451,6 +33466,7 @@ entity
 	{
 		"color" "220 30 220"
 		"visgroupid" "27"
+		"visgroupid" "35"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[500 -14768]"
@@ -34698,10 +34714,10 @@ entity
 {
 	"id" "6432"
 	"classname" "func_illusionary"
-	"disablereceiveshadows" "0"
-	"disableshadows" "0"
+	"disablereceiveshadows" "1"
+	"disableshadows" "1"
 	"origin" "1728 1024 -1840"
-	"renderamt" "80"
+	"renderamt" "5"
 	"rendercolor" "255 255 255"
 	"renderfx" "14"
 	"rendermode" "3"
@@ -34712,7 +34728,7 @@ entity
 		{
 			"id" "6292"
 			"plane" "(1408 1952 -1792) (2048 1952 -1792) (2048 96 -1792)"
-			"material" "TEST/COLOR_GREEN"
+			"material" "TEST/COLOR_GREEN_GLOW"
 			"uaxis" "[0 -1 0 0] 0.5"
 			"vaxis" "[-1 0 0 0] 0.5"
 			"rotation" "0"
@@ -34723,7 +34739,7 @@ entity
 		{
 			"id" "6291"
 			"plane" "(2048 1952 -1888) (1408 1952 -1888) (1408 96 -1888)"
-			"material" "TEST/COLOR_GREEN"
+			"material" "TEST/COLOR_GREEN_GLOW"
 			"uaxis" "[0 -1 0 0] 0.5"
 			"vaxis" "[-1 0 0 0] 0.5"
 			"rotation" "0"
@@ -34734,7 +34750,7 @@ entity
 		{
 			"id" "6290"
 			"plane" "(1408 1952 -1888) (2048 1952 -1888) (2048 1952 -1792)"
-			"material" "TEST/COLOR_GREEN"
+			"material" "TEST/COLOR_GREEN_GLOW"
 			"uaxis" "[1 0 0 0] 0.5"
 			"vaxis" "[0 0 -1 0] 0.5"
 			"rotation" "0"
@@ -34745,7 +34761,7 @@ entity
 		{
 			"id" "6289"
 			"plane" "(2048 96 -1888) (1408 96 -1888) (1408 96 -1792)"
-			"material" "TEST/COLOR_GREEN"
+			"material" "TEST/COLOR_GREEN_GLOW"
 			"uaxis" "[1 0 0 0] 0.5"
 			"vaxis" "[0 0 -1 0] 0.5"
 			"rotation" "0"
@@ -34756,7 +34772,7 @@ entity
 		{
 			"id" "6288"
 			"plane" "(1408 96 -1888) (1408 1952 -1888) (1408 1952 -1792)"
-			"material" "TEST/COLOR_GREEN"
+			"material" "TEST/COLOR_GREEN_GLOW"
 			"uaxis" "[0 -1 0 0] 0.5"
 			"vaxis" "[0 0 -1 0] 0.5"
 			"rotation" "0"
@@ -34767,7 +34783,7 @@ entity
 		{
 			"id" "6287"
 			"plane" "(2048 1952 -1888) (2048 96 -1888) (2048 96 -1792)"
-			"material" "TEST/COLOR_GREEN"
+			"material" "TEST/COLOR_GREEN_GLOW"
 			"uaxis" "[0 -1 0 0] 0.5"
 			"vaxis" "[0 0 -1 0] 0.5"
 			"rotation" "0"
@@ -34785,6 +34801,7 @@ entity
 	{
 		"color" "220 30 220"
 		"visgroupid" "20"
+		"visgroupid" "35"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[500 -14768]"
@@ -34794,10 +34811,10 @@ entity
 {
 	"id" "6465"
 	"classname" "func_illusionary"
-	"disablereceiveshadows" "0"
-	"disableshadows" "0"
+	"disablereceiveshadows" "1"
+	"disableshadows" "1"
 	"origin" "1728 256 -432"
-	"renderamt" "80"
+	"renderamt" "5"
 	"rendercolor" "255 255 255"
 	"renderfx" "14"
 	"rendermode" "3"
@@ -34808,7 +34825,7 @@ entity
 		{
 			"id" "6304"
 			"plane" "(1408 736 -384) (2048 736 -384) (2048 -224 -384)"
-			"material" "TEST/COLOR_GREEN"
+			"material" "TEST/COLOR_GREEN_GLOW"
 			"uaxis" "[0 -1 0 0] 0.5"
 			"vaxis" "[-1 0 0 0] 0.5"
 			"rotation" "0"
@@ -34819,7 +34836,7 @@ entity
 		{
 			"id" "6303"
 			"plane" "(2048 736 -480) (1408 736 -480) (1408 -224 -480)"
-			"material" "TEST/COLOR_GREEN"
+			"material" "TEST/COLOR_GREEN_GLOW"
 			"uaxis" "[0 -1 0 0] 0.5"
 			"vaxis" "[-1 0 0 0] 0.5"
 			"rotation" "0"
@@ -34830,7 +34847,7 @@ entity
 		{
 			"id" "6302"
 			"plane" "(1408 736 -480) (2048 736 -480) (2048 736 -384)"
-			"material" "TEST/COLOR_GREEN"
+			"material" "TEST/COLOR_GREEN_GLOW"
 			"uaxis" "[1 0 0 0] 0.5"
 			"vaxis" "[0 0 -1 0] 0.5"
 			"rotation" "0"
@@ -34841,7 +34858,7 @@ entity
 		{
 			"id" "6301"
 			"plane" "(2048 -224 -480) (1408 -224 -480) (1408 -224 -384)"
-			"material" "TEST/COLOR_GREEN"
+			"material" "TEST/COLOR_GREEN_GLOW"
 			"uaxis" "[1 0 0 0] 0.5"
 			"vaxis" "[0 0 -1 0] 0.5"
 			"rotation" "0"
@@ -34852,7 +34869,7 @@ entity
 		{
 			"id" "6300"
 			"plane" "(1408 -224 -480) (1408 736 -480) (1408 736 -384)"
-			"material" "TEST/COLOR_GREEN"
+			"material" "TEST/COLOR_GREEN_GLOW"
 			"uaxis" "[0 -1 0 0] 0.5"
 			"vaxis" "[0 0 -1 0] 0.5"
 			"rotation" "0"
@@ -34863,7 +34880,7 @@ entity
 		{
 			"id" "6299"
 			"plane" "(2048 736 -480) (2048 -224 -480) (2048 -224 -384)"
-			"material" "TEST/COLOR_GREEN"
+			"material" "TEST/COLOR_GREEN_GLOW"
 			"uaxis" "[0 -1 0 0] 0.5"
 			"vaxis" "[0 0 -1 0] 0.5"
 			"rotation" "0"
@@ -34881,6 +34898,7 @@ entity
 	{
 		"color" "220 30 220"
 		"visgroupid" "20"
+		"visgroupid" "35"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[500 -14768]"
@@ -35185,10 +35203,10 @@ entity
 {
 	"id" "7433"
 	"classname" "func_illusionary"
-	"disablereceiveshadows" "0"
-	"disableshadows" "0"
+	"disablereceiveshadows" "1"
+	"disableshadows" "1"
 	"origin" "-2016 1312 -224"
-	"renderamt" "80"
+	"renderamt" "5"
 	"rendercolor" "255 255 255"
 	"renderfx" "14"
 	"rendermode" "3"
@@ -35199,7 +35217,7 @@ entity
 		{
 			"id" "7099"
 			"plane" "(-2848 672 -192) (-2848 1952 -192) (-1184 1952 -192)"
-			"material" "TEST/COLOR_GREEN"
+			"material" "TEST/COLOR_GREEN_GLOW"
 			"uaxis" "[1 0 0 -64] 0.5"
 			"vaxis" "[0 -1 0 0] 0.5"
 			"rotation" "0"
@@ -35210,7 +35228,7 @@ entity
 		{
 			"id" "7098"
 			"plane" "(-2848 1952 -256) (-2848 672 -256) (-1184 672 -256)"
-			"material" "TEST/COLOR_GREEN"
+			"material" "TEST/COLOR_GREEN_GLOW"
 			"uaxis" "[1 0 0 -64] 0.5"
 			"vaxis" "[0 -1 0 0] 0.5"
 			"rotation" "0"
@@ -35221,7 +35239,7 @@ entity
 		{
 			"id" "7097"
 			"plane" "(-2848 672 -256) (-2848 1952 -256) (-2848 1952 -192)"
-			"material" "TEST/COLOR_GREEN"
+			"material" "TEST/COLOR_GREEN_GLOW"
 			"uaxis" "[0 1 0 0] 0.5"
 			"vaxis" "[0 0 -1 0] 0.5"
 			"rotation" "0"
@@ -35232,7 +35250,7 @@ entity
 		{
 			"id" "7096"
 			"plane" "(-1184 1952 -256) (-1184 672 -256) (-1184 672 -192)"
-			"material" "TEST/COLOR_GREEN"
+			"material" "TEST/COLOR_GREEN_GLOW"
 			"uaxis" "[0 1 0 0] 0.5"
 			"vaxis" "[0 0 -1 0] 0.5"
 			"rotation" "0"
@@ -35243,7 +35261,7 @@ entity
 		{
 			"id" "7095"
 			"plane" "(-1184 672 -256) (-2848 672 -256) (-2848 672 -192)"
-			"material" "TEST/COLOR_GREEN"
+			"material" "TEST/COLOR_GREEN_GLOW"
 			"uaxis" "[1 0 0 -64] 0.5"
 			"vaxis" "[0 0 -1 0] 0.5"
 			"rotation" "0"
@@ -35272,6 +35290,7 @@ entity
 	{
 		"color" "220 30 220"
 		"visgroupid" "29"
+		"visgroupid" "35"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[500 -14768]"
@@ -35281,10 +35300,10 @@ entity
 {
 	"id" "7448"
 	"classname" "func_illusionary"
-	"disablereceiveshadows" "0"
-	"disableshadows" "0"
+	"disablereceiveshadows" "1"
+	"disableshadows" "1"
 	"origin" "-2368 2288 -512"
-	"renderamt" "80"
+	"renderamt" "5"
 	"rendercolor" "255 255 255"
 	"renderfx" "14"
 	"rendermode" "3"
@@ -35295,7 +35314,7 @@ entity
 		{
 			"id" "7111"
 			"plane" "(-2848 2624 -768) (-1888 2624 -768) (-1888 1952 -192)"
-			"material" "TEST/COLOR_GREEN"
+			"material" "TEST/COLOR_GREEN_GLOW"
 			"uaxis" "[1 0 0 -64] 0.5"
 			"vaxis" "[0 -1 0 0] 0.5"
 			"rotation" "0"
@@ -35306,7 +35325,7 @@ entity
 		{
 			"id" "7110"
 			"plane" "(-2848 1952 -256) (-1888 1952 -256) (-1888 2624 -832)"
-			"material" "TEST/COLOR_GREEN"
+			"material" "TEST/COLOR_GREEN_GLOW"
 			"uaxis" "[1 0 0 -64] 0.5"
 			"vaxis" "[0 -1 0 0] 0.5"
 			"rotation" "0"
@@ -35317,7 +35336,7 @@ entity
 		{
 			"id" "7109"
 			"plane" "(-2848 2624 -832) (-2848 2624 -768) (-2848 1952 -192)"
-			"material" "TEST/COLOR_GREEN"
+			"material" "TEST/COLOR_GREEN_GLOW"
 			"uaxis" "[0 1 0 0] 0.5"
 			"vaxis" "[0 0 -1 0] 0.5"
 			"rotation" "0"
@@ -35328,7 +35347,7 @@ entity
 		{
 			"id" "7108"
 			"plane" "(-1888 1952 -256) (-1888 1952 -192) (-1888 2624 -768)"
-			"material" "TEST/COLOR_GREEN"
+			"material" "TEST/COLOR_GREEN_GLOW"
 			"uaxis" "[0 1 0 0] 0.5"
 			"vaxis" "[0 0 -1 0] 0.5"
 			"rotation" "0"
@@ -35368,6 +35387,7 @@ entity
 	{
 		"color" "220 30 220"
 		"visgroupid" "29"
+		"visgroupid" "35"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[500 -14768]"
@@ -35377,10 +35397,10 @@ entity
 {
 	"id" "7452"
 	"classname" "func_illusionary"
-	"disablereceiveshadows" "0"
-	"disableshadows" "0"
+	"disablereceiveshadows" "1"
+	"disableshadows" "1"
 	"origin" "-2368 2832 -800"
-	"renderamt" "80"
+	"renderamt" "5"
 	"rendercolor" "255 255 255"
 	"renderfx" "14"
 	"rendermode" "3"
@@ -35391,7 +35411,7 @@ entity
 		{
 			"id" "7123"
 			"plane" "(-2848 2624 -768) (-2848 3040 -768) (-1888 3040 -768)"
-			"material" "TEST/COLOR_GREEN"
+			"material" "TEST/COLOR_GREEN_GLOW"
 			"uaxis" "[1 0 0 -64] 0.5"
 			"vaxis" "[0 -1 0 0] 0.5"
 			"rotation" "0"
@@ -35402,7 +35422,7 @@ entity
 		{
 			"id" "7122"
 			"plane" "(-2848 3040 -832) (-2848 2624 -832) (-1888 2624 -832)"
-			"material" "TEST/COLOR_GREEN"
+			"material" "TEST/COLOR_GREEN_GLOW"
 			"uaxis" "[1 0 0 -64] 0.5"
 			"vaxis" "[0 -1 0 0] 0.5"
 			"rotation" "0"
@@ -35413,7 +35433,7 @@ entity
 		{
 			"id" "7121"
 			"plane" "(-2848 2624 -832) (-2848 3040 -832) (-2848 3040 -768)"
-			"material" "TEST/COLOR_GREEN"
+			"material" "TEST/COLOR_GREEN_GLOW"
 			"uaxis" "[0 1 0 0] 0.5"
 			"vaxis" "[0 0 -1 0] 0.5"
 			"rotation" "0"
@@ -35424,7 +35444,7 @@ entity
 		{
 			"id" "7120"
 			"plane" "(-1888 3040 -832) (-1888 2624 -832) (-1888 2624 -768)"
-			"material" "TEST/COLOR_GREEN"
+			"material" "TEST/COLOR_GREEN_GLOW"
 			"uaxis" "[0 1 0 0] 0.5"
 			"vaxis" "[0 0 -1 0] 0.5"
 			"rotation" "0"
@@ -35446,7 +35466,7 @@ entity
 		{
 			"id" "7118"
 			"plane" "(-2848 3040 -832) (-1888 3040 -832) (-1888 3040 -768)"
-			"material" "TEST/COLOR_GREEN"
+			"material" "TEST/COLOR_GREEN_GLOW"
 			"uaxis" "[1 0 0 -64] 0.5"
 			"vaxis" "[0 0 -1 0] 0.5"
 			"rotation" "0"
@@ -35464,6 +35484,7 @@ entity
 	{
 		"color" "220 30 220"
 		"visgroupid" "29"
+		"visgroupid" "35"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[500 -14768]"
@@ -35768,10 +35789,10 @@ entity
 {
 	"id" "10234"
 	"classname" "func_illusionary"
-	"disablereceiveshadows" "0"
-	"disableshadows" "0"
+	"disablereceiveshadows" "1"
+	"disableshadows" "1"
 	"origin" "-6176 1488 -640"
-	"renderamt" "80"
+	"renderamt" "5"
 	"rendercolor" "255 255 255"
 	"renderfx" "14"
 	"rendermode" "3"
@@ -35782,7 +35803,7 @@ entity
 		{
 			"id" "8321"
 			"plane" "(-6432 1056 -224) (-6432 1920 -224) (-5920 1920 -224)"
-			"material" "TEST/COLOR_GREEN"
+			"material" "TEST/COLOR_GREEN_GLOW"
 			"uaxis" "[1 0 0 0] 0.5"
 			"vaxis" "[0 -1 0 0] 0.5"
 			"rotation" "0"
@@ -35793,7 +35814,7 @@ entity
 		{
 			"id" "8320"
 			"plane" "(-6432 1920 -1056) (-6432 1056 -1056) (-5920 1056 -1056)"
-			"material" "TEST/COLOR_GREEN"
+			"material" "TEST/COLOR_GREEN_GLOW"
 			"uaxis" "[1 0 0 0] 0.5"
 			"vaxis" "[0 -1 0 0] 0.5"
 			"rotation" "0"
@@ -35804,7 +35825,7 @@ entity
 		{
 			"id" "8319"
 			"plane" "(-6432 1056 -1056) (-6432 1920 -1056) (-6432 1920 -224)"
-			"material" "TEST/COLOR_GREEN"
+			"material" "TEST/COLOR_GREEN_GLOW"
 			"uaxis" "[0 1 0 0] 0.5"
 			"vaxis" "[0 0 -1 -64] 0.5"
 			"rotation" "0"
@@ -35837,7 +35858,7 @@ entity
 		{
 			"id" "8316"
 			"plane" "(-6432 1920 -1056) (-5920 1920 -1056) (-5920 1920 -224)"
-			"material" "TEST/COLOR_GREEN"
+			"material" "TEST/COLOR_GREEN_GLOW"
 			"uaxis" "[1 0 0 0] 0.5"
 			"vaxis" "[0 0 -1 -64] 0.5"
 			"rotation" "0"
@@ -35855,6 +35876,7 @@ entity
 	{
 		"color" "220 30 220"
 		"visgroupid" "28"
+		"visgroupid" "35"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[500 -14768]"
@@ -35864,10 +35886,10 @@ entity
 {
 	"id" "10255"
 	"classname" "func_illusionary"
-	"disablereceiveshadows" "0"
-	"disableshadows" "0"
+	"disablereceiveshadows" "1"
+	"disableshadows" "1"
 	"origin" "-6576 864 -640"
-	"renderamt" "80"
+	"renderamt" "5"
 	"rendercolor" "255 255 255"
 	"renderfx" "14"
 	"rendermode" "3"
@@ -35878,7 +35900,7 @@ entity
 		{
 			"id" "8333"
 			"plane" "(-7232 671.999 -224) (-7232 1056 -224) (-5920 1056 -224)"
-			"material" "TEST/COLOR_GREEN"
+			"material" "TEST/COLOR_GREEN_GLOW"
 			"uaxis" "[1 0 0 0] 0.5"
 			"vaxis" "[0 -1 0 0] 0.5"
 			"rotation" "0"
@@ -35889,7 +35911,7 @@ entity
 		{
 			"id" "8332"
 			"plane" "(-7232 1056 -1056) (-7232 671.999 -1056) (-5920 671.999 -1056)"
-			"material" "TEST/COLOR_GREEN"
+			"material" "TEST/COLOR_GREEN_GLOW"
 			"uaxis" "[1 0 0 0] 0.5"
 			"vaxis" "[0 -1 0 0] 0.5"
 			"rotation" "0"
@@ -35900,7 +35922,7 @@ entity
 		{
 			"id" "8331"
 			"plane" "(-7232 671.999 -1056) (-7232 1056 -1056) (-7232 1056 -224)"
-			"material" "TEST/COLOR_GREEN"
+			"material" "TEST/COLOR_GREEN_GLOW"
 			"uaxis" "[0 1 0 0] 0.5"
 			"vaxis" "[0 0 -1 -64] 0.5"
 			"rotation" "0"
@@ -35922,7 +35944,7 @@ entity
 		{
 			"id" "8329"
 			"plane" "(-5920 671.999 -1056) (-7232 671.999 -1056) (-7232 671.999 -224)"
-			"material" "TEST/COLOR_GREEN"
+			"material" "TEST/COLOR_GREEN_GLOW"
 			"uaxis" "[1 0 0 0] 0.5"
 			"vaxis" "[0 0 -1 -64] 0.5"
 			"rotation" "0"
@@ -35951,6 +35973,7 @@ entity
 	{
 		"color" "220 30 220"
 		"visgroupid" "28"
+		"visgroupid" "35"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[500 -14768]"
@@ -35960,10 +35983,10 @@ entity
 {
 	"id" "10261"
 	"classname" "func_illusionary"
-	"disablereceiveshadows" "0"
-	"disableshadows" "0"
+	"disablereceiveshadows" "1"
+	"disableshadows" "1"
 	"origin" "-5136 2384 -1008"
-	"renderamt" "80"
+	"renderamt" "5"
 	"rendercolor" "255 255 255"
 	"renderfx" "14"
 	"rendermode" "3"
@@ -35974,7 +35997,7 @@ entity
 		{
 			"id" "8345"
 			"plane" "(-7232 1952 -960) (-7232 2816 -960) (-3040 2816 -960)"
-			"material" "TEST/COLOR_GREEN"
+			"material" "TEST/COLOR_GREEN_GLOW"
 			"uaxis" "[1 0 0 0] 0.5"
 			"vaxis" "[0 -1 0 0] 0.5"
 			"rotation" "0"
@@ -35985,7 +36008,7 @@ entity
 		{
 			"id" "8344"
 			"plane" "(-7232 2816 -1056) (-7232 1952 -1056) (-3040 1952 -1056)"
-			"material" "TEST/COLOR_GREEN"
+			"material" "TEST/COLOR_GREEN_GLOW"
 			"uaxis" "[1 0 0 0] 0.5"
 			"vaxis" "[0 -1 0 0] 0.5"
 			"rotation" "0"
@@ -35996,7 +36019,7 @@ entity
 		{
 			"id" "8343"
 			"plane" "(-7232 1952 -1056) (-7232 2816 -1056) (-7232 2816 -960)"
-			"material" "TEST/COLOR_GREEN"
+			"material" "TEST/COLOR_GREEN_GLOW"
 			"uaxis" "[0 1 0 0] 0.5"
 			"vaxis" "[0 0 -1 -64] 0.5"
 			"rotation" "0"
@@ -36007,7 +36030,7 @@ entity
 		{
 			"id" "8342"
 			"plane" "(-3040 2816 -1056) (-3040 1952 -1056) (-3040 1952 -960)"
-			"material" "TEST/COLOR_GREEN"
+			"material" "TEST/COLOR_GREEN_GLOW"
 			"uaxis" "[0 1 0 0] 0.5"
 			"vaxis" "[0 0 -1 -64] 0.5"
 			"rotation" "0"
@@ -36018,7 +36041,7 @@ entity
 		{
 			"id" "8341"
 			"plane" "(-3040 1952 -1056) (-7232 1952 -1056) (-7232 1952 -960)"
-			"material" "TEST/COLOR_GREEN"
+			"material" "TEST/COLOR_GREEN_GLOW"
 			"uaxis" "[1 0 0 0] 0.5"
 			"vaxis" "[0 0 -1 -64] 0.5"
 			"rotation" "0"
@@ -36029,7 +36052,7 @@ entity
 		{
 			"id" "8340"
 			"plane" "(-7232 2816 -1056) (-3040 2816 -1056) (-3040 2816 -960)"
-			"material" "TEST/COLOR_GREEN"
+			"material" "TEST/COLOR_GREEN_GLOW"
 			"uaxis" "[1 0 0 0] 0.5"
 			"vaxis" "[0 0 -1 -64] 0.5"
 			"rotation" "0"
@@ -36047,6 +36070,7 @@ entity
 	{
 		"color" "220 30 220"
 		"visgroupid" "28"
+		"visgroupid" "35"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[500 -14768]"
@@ -40566,10 +40590,10 @@ entity
 {
 	"id" "11492"
 	"classname" "func_illusionary"
-	"disablereceiveshadows" "0"
-	"disableshadows" "0"
+	"disablereceiveshadows" "1"
+	"disableshadows" "1"
 	"origin" "832 2128 -2112"
-	"renderamt" "80"
+	"renderamt" "5"
 	"rendercolor" "255 255 255"
 	"renderfx" "14"
 	"rendermode" "3"
@@ -40580,7 +40604,7 @@ entity
 		{
 			"id" "9523"
 			"plane" "(480 3040 -2080) (1184 3040 -2080) (1184 1216 -2080)"
-			"material" "TEST/COLOR_GREEN"
+			"material" "TEST/COLOR_GREEN_GLOW"
 			"uaxis" "[0 -1 0 0] 0.5"
 			"vaxis" "[-1 0 0 64] 0.5"
 			"rotation" "0"
@@ -40591,7 +40615,7 @@ entity
 		{
 			"id" "9522"
 			"plane" "(1184 3040 -2144) (480 3040 -2144) (480 1216 -2144)"
-			"material" "TEST/COLOR_GREEN"
+			"material" "TEST/COLOR_GREEN_GLOW"
 			"uaxis" "[0 -1 0 0] 0.5"
 			"vaxis" "[-1 0 0 64] 0.5"
 			"rotation" "0"
@@ -40602,7 +40626,7 @@ entity
 		{
 			"id" "9521"
 			"plane" "(480 3040 -2144) (1184 3040 -2144) (1184 3040 -2080)"
-			"material" "TEST/COLOR_GREEN"
+			"material" "TEST/COLOR_GREEN_GLOW"
 			"uaxis" "[1 0 0 -64] 0.5"
 			"vaxis" "[0 0 -1 0] 0.5"
 			"rotation" "0"
@@ -40613,7 +40637,7 @@ entity
 		{
 			"id" "9520"
 			"plane" "(1184 1216 -2144) (480 1216 -2144) (480 1216 -2080)"
-			"material" "TEST/COLOR_GREEN"
+			"material" "TEST/COLOR_GREEN_GLOW"
 			"uaxis" "[1 0 0 -64] 0.5"
 			"vaxis" "[0 0 -1 0] 0.5"
 			"rotation" "0"
@@ -40624,7 +40648,7 @@ entity
 		{
 			"id" "9519"
 			"plane" "(480 1216 -2144) (480 3040 -2144) (480 3040 -2080)"
-			"material" "TEST/COLOR_GREEN"
+			"material" "TEST/COLOR_GREEN_GLOW"
 			"uaxis" "[0 -1 0 0] 0.5"
 			"vaxis" "[0 0 -1 0] 0.5"
 			"rotation" "0"
@@ -40635,7 +40659,7 @@ entity
 		{
 			"id" "9518"
 			"plane" "(1184 3040 -2144) (1184 1216 -2144) (1184 1216 -2080)"
-			"material" "TEST/COLOR_GREEN"
+			"material" "TEST/COLOR_GREEN_GLOW"
 			"uaxis" "[0 -1 0 0] 0.5"
 			"vaxis" "[0 0 -1 0] 0.5"
 			"rotation" "0"
@@ -40653,6 +40677,7 @@ entity
 	{
 		"color" "220 30 220"
 		"visgroupid" "24"
+		"visgroupid" "35"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[500 -14768]"
@@ -42426,10 +42451,10 @@ entity
 {
 	"id" "12483"
 	"classname" "func_illusionary"
-	"disablereceiveshadows" "0"
-	"disableshadows" "0"
+	"disablereceiveshadows" "1"
+	"disableshadows" "1"
 	"origin" "2560 640 -752"
-	"renderamt" "80"
+	"renderamt" "5"
 	"rendercolor" "255 255 255"
 	"renderfx" "14"
 	"rendermode" "3"
@@ -42440,7 +42465,7 @@ entity
 		{
 			"id" "10305"
 			"plane" "(2240 1504 -704) (2880 1504 -704) (2880 -224 -704)"
-			"material" "TEST/COLOR_GREEN"
+			"material" "TEST/COLOR_GREEN_GLOW"
 			"uaxis" "[0 -1 0 0] 0.5"
 			"vaxis" "[-1 0 0 -100.692] 0.5"
 			"rotation" "0"
@@ -42451,7 +42476,7 @@ entity
 		{
 			"id" "10304"
 			"plane" "(2880 1504 -800) (2240 1504 -800) (2240 -224 -800)"
-			"material" "TEST/COLOR_GREEN"
+			"material" "TEST/COLOR_GREEN_GLOW"
 			"uaxis" "[0 -1 0 0] 0.5"
 			"vaxis" "[-1 0 0 -100.692] 0.5"
 			"rotation" "0"
@@ -42473,7 +42498,7 @@ entity
 		{
 			"id" "10302"
 			"plane" "(2880 -224 -800) (2240 -224 -800) (2240 -224 -704)"
-			"material" "TEST/COLOR_GREEN"
+			"material" "TEST/COLOR_GREEN_GLOW"
 			"uaxis" "[1 0 0 100.692] 0.5"
 			"vaxis" "[0 0 -1 64] 0.5"
 			"rotation" "0"
@@ -42484,7 +42509,7 @@ entity
 		{
 			"id" "10301"
 			"plane" "(2240 -224 -800) (2240 1504 -800) (2240 1504 -704)"
-			"material" "TEST/COLOR_GREEN"
+			"material" "TEST/COLOR_GREEN_GLOW"
 			"uaxis" "[0 -1 0 0] 0.5"
 			"vaxis" "[0 0 -1 64] 0.5"
 			"rotation" "0"
@@ -42495,7 +42520,7 @@ entity
 		{
 			"id" "10300"
 			"plane" "(2880 1504 -800) (2880 -224 -800) (2880 -224 -704)"
-			"material" "TEST/COLOR_GREEN"
+			"material" "TEST/COLOR_GREEN_GLOW"
 			"uaxis" "[0 -1 0 0] 0.5"
 			"vaxis" "[0 0 -1 64] 0.5"
 			"rotation" "0"
@@ -42513,6 +42538,7 @@ entity
 	{
 		"color" "220 30 220"
 		"visgroupid" "19"
+		"visgroupid" "35"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[500 -14768]"
@@ -42522,10 +42548,10 @@ entity
 {
 	"id" "12513"
 	"classname" "func_illusionary"
-	"disablereceiveshadows" "0"
-	"disableshadows" "0"
+	"disablereceiveshadows" "1"
+	"disableshadows" "1"
 	"origin" "2560 2992 -1104"
-	"renderamt" "80"
+	"renderamt" "5"
 	"rendercolor" "255 255 255"
 	"renderfx" "14"
 	"rendermode" "3"
@@ -42536,7 +42562,7 @@ entity
 		{
 			"id" "10317"
 			"plane" "(2240 3328 -1056) (2880 3328 -1056) (2880 2656 -1056)"
-			"material" "TEST/COLOR_GREEN"
+			"material" "TEST/COLOR_GREEN_GLOW"
 			"uaxis" "[0 -1 0 0] 0.5"
 			"vaxis" "[-1 0 0 -100.692] 0.5"
 			"rotation" "0"
@@ -42547,7 +42573,7 @@ entity
 		{
 			"id" "10316"
 			"plane" "(2880 3328 -1152) (2240 3328 -1152) (2240 2656 -1152)"
-			"material" "TEST/COLOR_GREEN"
+			"material" "TEST/COLOR_GREEN_GLOW"
 			"uaxis" "[0 -1 0 0] 0.5"
 			"vaxis" "[-1 0 0 -100.692] 0.5"
 			"rotation" "0"
@@ -42558,7 +42584,7 @@ entity
 		{
 			"id" "10315"
 			"plane" "(2240 3328 -1152) (2880 3328 -1152) (2880 3328 -1056)"
-			"material" "TEST/COLOR_GREEN"
+			"material" "TEST/COLOR_GREEN_GLOW"
 			"uaxis" "[1 0 0 100.692] 0.5"
 			"vaxis" "[0 0 -1 0] 0.5"
 			"rotation" "0"
@@ -42580,7 +42606,7 @@ entity
 		{
 			"id" "10313"
 			"plane" "(2240 2656 -1152) (2240 3328 -1152) (2240 3328 -1056)"
-			"material" "TEST/COLOR_GREEN"
+			"material" "TEST/COLOR_GREEN_GLOW"
 			"uaxis" "[0 -1 0 0] 0.5"
 			"vaxis" "[0 0 -1 0] 0.5"
 			"rotation" "0"
@@ -42591,7 +42617,7 @@ entity
 		{
 			"id" "10312"
 			"plane" "(2880 3328 -1152) (2880 2656 -1152) (2880 2656 -1056)"
-			"material" "TEST/COLOR_GREEN"
+			"material" "TEST/COLOR_GREEN_GLOW"
 			"uaxis" "[0 -1 0 0] 0.5"
 			"vaxis" "[0 0 -1 0] 0.5"
 			"rotation" "0"
@@ -42609,6 +42635,7 @@ entity
 	{
 		"color" "220 30 220"
 		"visgroupid" "19"
+		"visgroupid" "35"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[500 -14768]"
@@ -42618,10 +42645,10 @@ entity
 {
 	"id" "12522"
 	"classname" "func_illusionary"
-	"disablereceiveshadows" "0"
-	"disableshadows" "0"
+	"disablereceiveshadows" "1"
+	"disableshadows" "1"
 	"origin" "2560 2080 -928"
-	"renderamt" "80"
+	"renderamt" "5"
 	"rendercolor" "255 255 255"
 	"renderfx" "14"
 	"rendermode" "3"
@@ -42632,7 +42659,7 @@ entity
 		{
 			"id" "10329"
 			"plane" "(2880 2656 -1056) (2880 1504 -704) (2240 1504 -704)"
-			"material" "TEST/COLOR_GREEN"
+			"material" "TEST/COLOR_GREEN_GLOW"
 			"uaxis" "[0 -1 0 64] 0.5"
 			"vaxis" "[-1 0 0 -100.692] 0.5"
 			"rotation" "0"
@@ -42643,7 +42670,7 @@ entity
 		{
 			"id" "10328"
 			"plane" "(2240 2656 -1152) (2240 1504 -800) (2880 1504 -800)"
-			"material" "TEST/COLOR_GREEN"
+			"material" "TEST/COLOR_GREEN_GLOW"
 			"uaxis" "[0 -1 0 64] 0.5"
 			"vaxis" "[-1 0 0 -100.692] 0.5"
 			"rotation" "0"
@@ -42676,7 +42703,7 @@ entity
 		{
 			"id" "10325"
 			"plane" "(2240 2656 -1152) (2240 2656 -1056) (2240 1504 -704)"
-			"material" "TEST/COLOR_GREEN"
+			"material" "TEST/COLOR_GREEN_GLOW"
 			"uaxis" "[0 -1 0 64] 0.5"
 			"vaxis" "[0 0 -1 0] 0.5"
 			"rotation" "0"
@@ -42687,7 +42714,7 @@ entity
 		{
 			"id" "10324"
 			"plane" "(2880 1504 -800) (2880 1504 -704) (2880 2656 -1056)"
-			"material" "TEST/COLOR_GREEN"
+			"material" "TEST/COLOR_GREEN_GLOW"
 			"uaxis" "[0 -1 0 64] 0.5"
 			"vaxis" "[0 0 -1 0] 0.5"
 			"rotation" "0"
@@ -42705,6 +42732,7 @@ entity
 	{
 		"color" "220 30 220"
 		"visgroupid" "19"
+		"visgroupid" "35"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[500 -14768]"
@@ -43823,10 +43851,10 @@ entity
 {
 	"id" "12780"
 	"classname" "func_illusionary"
-	"disablereceiveshadows" "0"
-	"disableshadows" "0"
+	"disablereceiveshadows" "1"
+	"disableshadows" "1"
 	"origin" "480 -1840 -1248"
-	"renderamt" "80"
+	"renderamt" "5"
 	"rendercolor" "255 255 255"
 	"renderfx" "14"
 	"rendermode" "3"
@@ -43837,7 +43865,7 @@ entity
 		{
 			"id" "10770"
 			"plane" "(128 -1312 -1184) (832 -1312 -1184) (832 -2368 -1184)"
-			"material" "TEST/COLOR_GREEN"
+			"material" "TEST/COLOR_GREEN_GLOW"
 			"uaxis" "[0 -1 0 0] 0.5"
 			"vaxis" "[-1 0 0 -64] 0.5"
 			"rotation" "0"
@@ -43848,7 +43876,7 @@ entity
 		{
 			"id" "10769"
 			"plane" "(832 -1312 -1312) (128 -1312 -1312) (128 -2368 -1312)"
-			"material" "TEST/COLOR_GREEN"
+			"material" "TEST/COLOR_GREEN_GLOW"
 			"uaxis" "[0 -1 0 0] 0.5"
 			"vaxis" "[-1 0 0 -64] 0.5"
 			"rotation" "0"
@@ -43859,7 +43887,7 @@ entity
 		{
 			"id" "10768"
 			"plane" "(128 -1312 -1312) (832 -1312 -1312) (832 -1312 -1184)"
-			"material" "TEST/COLOR_GREEN"
+			"material" "TEST/COLOR_GREEN_GLOW"
 			"uaxis" "[1 0 0 64] 0.5"
 			"vaxis" "[0 0 -1 0] 0.5"
 			"rotation" "0"
@@ -43870,7 +43898,7 @@ entity
 		{
 			"id" "10767"
 			"plane" "(832 -2368 -1312) (128 -2368 -1312) (128 -2368 -1184)"
-			"material" "TEST/COLOR_GREEN"
+			"material" "TEST/COLOR_GREEN_GLOW"
 			"uaxis" "[1 0 0 64] 0.5"
 			"vaxis" "[0 0 -1 0] 0.5"
 			"rotation" "0"
@@ -43881,7 +43909,7 @@ entity
 		{
 			"id" "10766"
 			"plane" "(128 -2368 -1312) (128 -1312 -1312) (128 -1312 -1184)"
-			"material" "TEST/COLOR_GREEN"
+			"material" "TEST/COLOR_GREEN_GLOW"
 			"uaxis" "[0 -1 0 0] 0.5"
 			"vaxis" "[0 0 -1 0] 0.5"
 			"rotation" "0"
@@ -43892,7 +43920,7 @@ entity
 		{
 			"id" "10765"
 			"plane" "(832 -1312 -1312) (832 -2368 -1312) (832 -2368 -1184)"
-			"material" "TEST/COLOR_GREEN"
+			"material" "TEST/COLOR_GREEN_GLOW"
 			"uaxis" "[0 -1 0 0] 0.5"
 			"vaxis" "[0 0 -1 0] 0.5"
 			"rotation" "0"
@@ -43910,6 +43938,7 @@ entity
 	{
 		"color" "220 30 220"
 		"visgroupid" "22"
+		"visgroupid" "35"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[500 -14768]"
@@ -44230,10 +44259,10 @@ entity
 {
 	"id" "13734"
 	"classname" "func_illusionary"
-	"disablereceiveshadows" "0"
-	"disableshadows" "0"
+	"disablereceiveshadows" "1"
+	"disableshadows" "1"
 	"origin" "1968 -784 -1648"
-	"renderamt" "80"
+	"renderamt" "5"
 	"rendercolor" "255 255 255"
 	"renderfx" "14"
 	"rendermode" "3"
@@ -44244,7 +44273,7 @@ entity
 		{
 			"id" "11376"
 			"plane" "(2880 -1152 -1568) (1056 -1152 -1568) (1056 -416 -1568)"
-			"material" "TEST/COLOR_GREEN"
+			"material" "TEST/COLOR_GREEN_GLOW"
 			"uaxis" "[0 1 0 0] 0.5"
 			"vaxis" "[1 0 0 0] 0.5"
 			"rotation" "0"
@@ -44255,7 +44284,7 @@ entity
 		{
 			"id" "11375"
 			"plane" "(1056 -1152 -1728) (2880 -1152 -1728) (2880 -416 -1728)"
-			"material" "TEST/COLOR_GREEN"
+			"material" "TEST/COLOR_GREEN_GLOW"
 			"uaxis" "[0 1 0 0] 0.5"
 			"vaxis" "[1 0 0 0] 0.5"
 			"rotation" "0"
@@ -44266,7 +44295,7 @@ entity
 		{
 			"id" "11374"
 			"plane" "(2880 -1152 -1728) (1056 -1152 -1728) (1056 -1152 -1568)"
-			"material" "TEST/COLOR_GREEN"
+			"material" "TEST/COLOR_GREEN_GLOW"
 			"uaxis" "[-1 0 0 0] 0.5"
 			"vaxis" "[0 0 -1 -64] 0.5"
 			"rotation" "0"
@@ -44277,7 +44306,7 @@ entity
 		{
 			"id" "11373"
 			"plane" "(1056 -416 -1728) (2880 -416 -1728) (2880 -416 -1568)"
-			"material" "TEST/COLOR_GREEN"
+			"material" "TEST/COLOR_GREEN_GLOW"
 			"uaxis" "[-1 0 0 0] 0.5"
 			"vaxis" "[0 0 -1 -64] 0.5"
 			"rotation" "0"
@@ -44288,7 +44317,7 @@ entity
 		{
 			"id" "11372"
 			"plane" "(2880 -416 -1728) (2880 -1152 -1728) (2880 -1152 -1568)"
-			"material" "TEST/COLOR_GREEN"
+			"material" "TEST/COLOR_GREEN_GLOW"
 			"uaxis" "[0 1 0 0] 0.5"
 			"vaxis" "[0 0 -1 -64] 0.5"
 			"rotation" "0"
@@ -44299,7 +44328,7 @@ entity
 		{
 			"id" "11371"
 			"plane" "(1056 -1152 -1728) (1056 -416 -1728) (1056 -416 -1568)"
-			"material" "TEST/COLOR_GREEN"
+			"material" "TEST/COLOR_GREEN_GLOW"
 			"uaxis" "[0 1 0 0] 0.5"
 			"vaxis" "[0 0 -1 -64] 0.5"
 			"rotation" "0"
@@ -44317,6 +44346,7 @@ entity
 	{
 		"color" "220 30 220"
 		"visgroupid" "34"
+		"visgroupid" "35"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[500 -14768]"
@@ -44845,10 +44875,10 @@ entity
 {
 	"id" "14192"
 	"classname" "func_illusionary"
-	"disablereceiveshadows" "0"
-	"disableshadows" "0"
+	"disablereceiveshadows" "1"
+	"disableshadows" "1"
 	"origin" "-1792 -1920 -912"
-	"renderamt" "80"
+	"renderamt" "5"
 	"rendercolor" "255 255 255"
 	"renderfx" "14"
 	"rendermode" "3"
@@ -44859,7 +44889,7 @@ entity
 		{
 			"id" "11880"
 			"plane" "(-2048 -1312 -864) (-1536 -1312 -864) (-1536 -2528 -864)"
-			"material" "TEST/COLOR_GREEN"
+			"material" "TEST/COLOR_GREEN_GLOW"
 			"uaxis" "[0 -1 0 -64] 0.5"
 			"vaxis" "[-1 0 0 64] 0.5"
 			"rotation" "0"
@@ -44870,7 +44900,7 @@ entity
 		{
 			"id" "11879"
 			"plane" "(-1536 -1312 -960) (-2048 -1312 -960) (-2048 -2528 -960)"
-			"material" "TEST/COLOR_GREEN"
+			"material" "TEST/COLOR_GREEN_GLOW"
 			"uaxis" "[0 -1 0 -64] 0.5"
 			"vaxis" "[-1 0 0 64] 0.5"
 			"rotation" "0"
@@ -44881,7 +44911,7 @@ entity
 		{
 			"id" "11878"
 			"plane" "(-2048 -1312 -960) (-1536 -1312 -960) (-1536 -1312 -864)"
-			"material" "TEST/COLOR_GREEN"
+			"material" "TEST/COLOR_GREEN_GLOW"
 			"uaxis" "[1 0 0 -64] 0.5"
 			"vaxis" "[0 0 -1 -64] 0.5"
 			"rotation" "0"
@@ -44892,7 +44922,7 @@ entity
 		{
 			"id" "11877"
 			"plane" "(-1536 -2528 -960) (-2048 -2528 -960) (-2048 -2528 -864)"
-			"material" "TEST/COLOR_GREEN"
+			"material" "TEST/COLOR_GREEN_GLOW"
 			"uaxis" "[1 0 0 -64] 0.5"
 			"vaxis" "[0 0 -1 -64] 0.5"
 			"rotation" "0"
@@ -44903,7 +44933,7 @@ entity
 		{
 			"id" "11876"
 			"plane" "(-2048 -2528 -960) (-2048 -1312 -960) (-2048 -1312 -864)"
-			"material" "TEST/COLOR_GREEN"
+			"material" "TEST/COLOR_GREEN_GLOW"
 			"uaxis" "[0 -1 0 -64] 0.5"
 			"vaxis" "[0 0 -1 -64] 0.5"
 			"rotation" "0"
@@ -44914,7 +44944,7 @@ entity
 		{
 			"id" "11875"
 			"plane" "(-1536 -1312 -960) (-1536 -2528 -960) (-1536 -2528 -864)"
-			"material" "TEST/COLOR_GREEN"
+			"material" "TEST/COLOR_GREEN_GLOW"
 			"uaxis" "[0 -1 0 -64] 0.5"
 			"vaxis" "[0 0 -1 -64] 0.5"
 			"rotation" "0"
@@ -44932,6 +44962,7 @@ entity
 	{
 		"color" "220 30 220"
 		"visgroupid" "25"
+		"visgroupid" "35"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[500 -14768]"
@@ -45592,10 +45623,10 @@ entity
 {
 	"id" "15182"
 	"classname" "func_illusionary"
-	"disablereceiveshadows" "0"
-	"disableshadows" "0"
+	"disablereceiveshadows" "1"
+	"disableshadows" "1"
 	"origin" "-2816 -1792 -208"
-	"renderamt" "80"
+	"renderamt" "5"
 	"rendercolor" "255 255 255"
 	"renderfx" "14"
 	"rendermode" "3"
@@ -45606,7 +45637,7 @@ entity
 		{
 			"id" "12731"
 			"plane" "(-3680 -2176 -160) (-3680 -1408 -160) (-2240 -1408 -160)"
-			"material" "TEST/COLOR_GREEN"
+			"material" "TEST/COLOR_GREEN_GLOW"
 			"uaxis" "[1 0 0 3.98047] 0.5"
 			"vaxis" "[0 -1 0 22.2261] 0.5"
 			"rotation" "0"
@@ -45617,7 +45648,7 @@ entity
 		{
 			"id" "12730"
 			"plane" "(-3680 -1408 -256) (-3680 -2176 -256) (-2240 -2176 -256)"
-			"material" "TEST/COLOR_GREEN"
+			"material" "TEST/COLOR_GREEN_GLOW"
 			"uaxis" "[1 0 0 3.98047] 0.5"
 			"vaxis" "[0 -1 0 22.2261] 0.5"
 			"rotation" "0"
@@ -45628,7 +45659,7 @@ entity
 		{
 			"id" "12729"
 			"plane" "(-3680 -2176 -256) (-3680 -1408 -256) (-3680 -1408 -160)"
-			"material" "TEST/COLOR_GREEN"
+			"material" "TEST/COLOR_GREEN_GLOW"
 			"uaxis" "[0 1 0 -22.2261] 0.5"
 			"vaxis" "[0 0 -1 0] 0.5"
 			"rotation" "0"
@@ -45639,7 +45670,7 @@ entity
 		{
 			"id" "12728"
 			"plane" "(-2240 -1408 -256) (-2240 -2176 -256) (-2240 -2176 -160)"
-			"material" "TEST/COLOR_GREEN"
+			"material" "TEST/COLOR_GREEN_GLOW"
 			"uaxis" "[0 1 0 -22.2261] 0.5"
 			"vaxis" "[0 0 -1 0] 0.5"
 			"rotation" "0"
@@ -45650,7 +45681,7 @@ entity
 		{
 			"id" "12727"
 			"plane" "(-2240 -2176 -256) (-3680 -2176 -256) (-3680 -2176 -160)"
-			"material" "TEST/COLOR_GREEN"
+			"material" "TEST/COLOR_GREEN_GLOW"
 			"uaxis" "[1 0 0 3.98047] 0.5"
 			"vaxis" "[0 0 -1 0] 0.5"
 			"rotation" "0"
@@ -45661,7 +45692,7 @@ entity
 		{
 			"id" "12726"
 			"plane" "(-3680 -1408 -256) (-2240 -1408 -256) (-2240 -1408 -160)"
-			"material" "TEST/COLOR_GREEN"
+			"material" "TEST/COLOR_GREEN_GLOW"
 			"uaxis" "[1 0 0 3.98047] 0.5"
 			"vaxis" "[0 0 -1 0] 0.5"
 			"rotation" "0"
@@ -45679,6 +45710,7 @@ entity
 	{
 		"color" "220 30 220"
 		"visgroupid" "26"
+		"visgroupid" "35"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[500 -14768]"
@@ -94450,10 +94482,10 @@ entity
 {
 	"id" "37141"
 	"classname" "func_illusionary"
-	"disablereceiveshadows" "0"
-	"disableshadows" "0"
+	"disablereceiveshadows" "1"
+	"disableshadows" "1"
 	"origin" "-6992 1664 -506.53"
-	"renderamt" "50"
+	"renderamt" "15"
 	"rendercolor" "255 255 255"
 	"renderfx" "14"
 	"rendermode" "3"
@@ -94464,7 +94496,7 @@ entity
 		{
 			"id" "27193"
 			"plane" "(-7232 2240 -896) (-7232 1088 -896) (-6752 1088 -896)"
-			"material" "TEST/COLOR_GREEN"
+			"material" "TEST/COLOR_GREEN_GLOW"
 			"uaxis" "[1 0 0 64] 0.5"
 			"vaxis" "[0 -1 0 0] 0.5"
 			"rotation" "0"
@@ -94475,7 +94507,7 @@ entity
 		{
 			"id" "27192"
 			"plane" "(-7232 1088 -896) (-7232 2240 -896) (-7232 2240 -874.948)"
-			"material" "TEST/COLOR_GREEN"
+			"material" "TEST/COLOR_GREEN_GLOW"
 			"uaxis" "[0 1 0 0] 0.5"
 			"vaxis" "[0 0 -1 0] 0.5"
 			"rotation" "0"
@@ -94486,7 +94518,7 @@ entity
 		{
 			"id" "27191"
 			"plane" "(-7232 1088 -117.059) (-7232 2240 -874.95) (-6752 2240 -874.95)"
-			"material" "TEST/COLOR_GREEN"
+			"material" "TEST/COLOR_GREEN_GLOW"
 			"uaxis" "[1 0 0 0] 10"
 			"vaxis" "[0 -1 0 0] 10"
 			"rotation" "0"
@@ -94497,7 +94529,7 @@ entity
 		{
 			"id" "27190"
 			"plane" "(-6752 2240 -896) (-6752 1088 -896) (-6752 1088 -117.055)"
-			"material" "TEST/COLOR_GREEN"
+			"material" "TEST/COLOR_GREEN_GLOW"
 			"uaxis" "[0 1 0 0] 0.5"
 			"vaxis" "[0 0 -1 0] 0.5"
 			"rotation" "0"
@@ -94508,7 +94540,7 @@ entity
 		{
 			"id" "27189"
 			"plane" "(-6752 1088 -896) (-7232 1088 -896) (-7232 1088 -117.057)"
-			"material" "TEST/COLOR_GREEN"
+			"material" "TEST/COLOR_GREEN_GLOW"
 			"uaxis" "[1 0 0 64] 0.5"
 			"vaxis" "[0 0 -1 0] 0.5"
 			"rotation" "0"
@@ -94519,7 +94551,7 @@ entity
 		{
 			"id" "27188"
 			"plane" "(-7232 2240 -874.945) (-7232 2240 -896) (-6752 2240 -896)"
-			"material" "TEST/COLOR_GREEN"
+			"material" "TEST/COLOR_GREEN_GLOW"
 			"uaxis" "[1 0 0 64] 0.5"
 			"vaxis" "[0 0 -1 0] 0.5"
 			"rotation" "0"
@@ -94537,6 +94569,7 @@ entity
 	{
 		"color" "220 30 220"
 		"visgroupid" "28"
+		"visgroupid" "35"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 1500]"
@@ -96100,10 +96133,10 @@ entity
 {
 	"id" "39692"
 	"classname" "func_illusionary"
-	"disablereceiveshadows" "0"
-	"disableshadows" "0"
+	"disablereceiveshadows" "1"
+	"disableshadows" "1"
 	"origin" "2560 1408 -640"
-	"renderamt" "40"
+	"renderamt" "5"
 	"rendercolor" "255 255 255"
 	"renderfx" "14"
 	"rendermode" "3"
@@ -96114,7 +96147,7 @@ entity
 		{
 			"id" "27662"
 			"plane" "(2272 1336 -688) (2272 1480 -592) (2848 1480 -592)"
-			"material" "TEST/COLOR_GREEN"
+			"material" "TEST/COLOR_GREEN_GLOW"
 			"uaxis" "[0 -1 0 0] 10"
 			"vaxis" "[-1 0 0 0] 10"
 			"rotation" "0"
@@ -96125,7 +96158,7 @@ entity
 		{
 			"id" "27661"
 			"plane" "(2848 1336 -688) (2848 1480 -592) (2848 1480 -688)"
-			"material" "TEST/COLOR_GREEN"
+			"material" "TEST/COLOR_GREEN_GLOW"
 			"uaxis" "[0 -1 0 64] 0.5"
 			"vaxis" "[0 0 -1 0] 0.5"
 			"rotation" "0"
@@ -96136,7 +96169,7 @@ entity
 		{
 			"id" "27660"
 			"plane" "(2272 1480 -592) (2272 1336 -688) (2272 1480 -688)"
-			"material" "TEST/COLOR_GREEN"
+			"material" "TEST/COLOR_GREEN_GLOW"
 			"uaxis" "[0 -1 0 64] 0.5"
 			"vaxis" "[0 0 -1 0] 0.5"
 			"rotation" "0"
@@ -96147,7 +96180,7 @@ entity
 		{
 			"id" "27659"
 			"plane" "(2272 1480 -688) (2272 1336 -688) (2848 1336 -688)"
-			"material" "TEST/COLOR_GREEN"
+			"material" "TEST/COLOR_GREEN_GLOW"
 			"uaxis" "[1 0 0 0] 0.5"
 			"vaxis" "[0 -1 0 0] 0.5"
 			"rotation" "0"
@@ -96158,7 +96191,7 @@ entity
 		{
 			"id" "27658"
 			"plane" "(2848 1480 -688) (2848 1480 -592) (2272 1480 -592)"
-			"material" "TEST/COLOR_GREEN"
+			"material" "TEST/COLOR_GREEN_GLOW"
 			"uaxis" "[1 0 0 0] 0.5"
 			"vaxis" "[0 0 -1 0] 0.5"
 			"rotation" "0"
@@ -96176,6 +96209,7 @@ entity
 	{
 		"color" "220 30 220"
 		"visgroupid" "19"
+		"visgroupid" "35"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 -10268]"
@@ -101644,10 +101678,10 @@ entity
 {
 	"id" "45837"
 	"classname" "func_illusionary"
-	"disablereceiveshadows" "0"
-	"disableshadows" "0"
+	"disablereceiveshadows" "1"
+	"disableshadows" "1"
 	"origin" "-5728 1296 -640"
-	"renderamt" "80"
+	"renderamt" "5"
 	"rendercolor" "255 255 255"
 	"renderfx" "14"
 	"rendermode" "3"
@@ -101658,7 +101692,7 @@ entity
 		{
 			"id" "29803"
 			"plane" "(-5920 672 -224) (-5920 1920 -224) (-5184 1920 -224)"
-			"material" "TEST/COLOR_GREEN"
+			"material" "TEST/COLOR_GREEN_GLOW"
 			"uaxis" "[1 0 0 0] 0.5"
 			"vaxis" "[0 -1 0 0] 0.5"
 			"rotation" "0"
@@ -101669,7 +101703,7 @@ entity
 		{
 			"id" "29802"
 			"plane" "(-5920 1920 -1056) (-5920 672 -1056) (-5184 672 -1056)"
-			"material" "TEST/COLOR_GREEN"
+			"material" "TEST/COLOR_GREEN_GLOW"
 			"uaxis" "[1 0 0 0] 0.5"
 			"vaxis" "[0 -1 0 0] 0.5"
 			"rotation" "0"
@@ -101713,7 +101747,7 @@ entity
 		{
 			"id" "29798"
 			"plane" "(-5920 1920 -1056) (-5184 1920 -1056) (-5184 1920 -224)"
-			"material" "TEST/COLOR_GREEN"
+			"material" "TEST/COLOR_GREEN_GLOW"
 			"uaxis" "[1 0 0 0] 0.5"
 			"vaxis" "[0 0 -1 -64] 0.5"
 			"rotation" "0"
@@ -101731,6 +101765,7 @@ entity
 	{
 		"color" "220 30 220"
 		"visgroupid" "28"
+		"visgroupid" "35"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[500 -14768]"
