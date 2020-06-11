@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8163"
-	"mapversion" "500"
+	"mapversion" "502"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -128,7 +128,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "500"
+	"mapversion" "502"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites_2fort"
 	"detailvbsp" "detail_2fort.vbsp"
@@ -45641,7 +45641,7 @@ entity
 	"spawnflags" "1"
 	"StartDisabled" "0"
 	"stop" "1"
-	"target" "13"
+	"target" "jump13"
 	"track_number" "0"
 	solid
 	{
@@ -81624,7 +81624,7 @@ entity
 	"classname" "func_illusionary"
 	"disablereceiveshadows" "0"
 	"disableshadows" "0"
-	"origin" "-4392 1552 379.045"
+	"origin" "-4392 1552 379.05"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
 	"renderfx" "0"
@@ -115513,7 +115513,7 @@ entity
 	"classname" "func_illusionary"
 	"disablereceiveshadows" "0"
 	"disableshadows" "0"
-	"origin" "-3824 2812 -803.581"
+	"origin" "-3824 2812 -803.58"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
 	"renderfx" "0"
@@ -115653,7 +115653,7 @@ entity
 	"classname" "func_illusionary"
 	"disablereceiveshadows" "0"
 	"disableshadows" "0"
-	"origin" "-3784 2812 -803.581"
+	"origin" "-3784 2812 -803.58"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
 	"renderfx" "0"
